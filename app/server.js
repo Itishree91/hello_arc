@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 
 // Configuration
 var port = process.env.PORT || 8080;
-var message = process.env.MESSAGE || "Hello Azure Arc GitOps Demo!";
+var message = process.env.MESSAGE || "Hello !! This is an Azure Arc GitOps Demo!";
 
 app.get('/', function (req, res) {
     res.render('home', {
